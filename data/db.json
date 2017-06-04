@@ -1,0 +1,276 @@
+{
+  "contacts": [
+    {
+      "gender": "male",
+      "name": {
+        "title": "mr",
+        "first": "Lucas",
+        "last": "Johansen"
+      },
+      "location": {
+        "street": "6135 nordre ringvej wa",
+        "city": "københavn ø",
+        "state": "sjælland",
+        "postcode": 39592
+      },
+      "email": "lucas.johansen@example.com",
+      "login": {
+        "username": "lazyduck414",
+        "password": "franco",
+        "salt": "0ioQ9C2I",
+        "md5": "a4ccf78798d4b81fa618e05c951434b8",
+        "sha1": "1c2ce65adad7fefb894f9a45e053933d3914fb19",
+        "sha256": "a8ca726a9275666a75ead3cc2c4c5689928a017296db8e8c91a37398f08226b6"
+      },
+      "dob": "1973-02-02 12:37:44",
+      "registered": "2005-07-27 13:06:09",
+      "phone": "82819840",
+      "cell": "60104561",
+      "id": 1,
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/men/19.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/men/19.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/19.jpg"
+      },
+      "nat": "DK",
+      "editMode": false
+    },
+    {
+      "gender": "male",
+      "name": {
+        "title": "mr",
+        "first": "Valencio",
+        "last": "Lamme"
+      },
+      "location": {
+        "street": "4647 moreelsepark",
+        "city": "heerde",
+        "state": "noord-brabant",
+        "postcode": 89273
+      },
+      "email": "valencio.lamme@example.com",
+      "login": {
+        "username": "beautifulpanda239",
+        "password": "90210",
+        "salt": "PIl1dwUX",
+        "md5": "4e895eb04697ad6e969c5e091d72a48c",
+        "sha1": "7afac558e6d237449f1b9d5205ef0cb8066867ce",
+        "sha256": "35dd69a5745d83a6cb6380cfa6007d6b0c1eb0109659a555aebf869d0ba49f25"
+      },
+      "dob": "1952-01-23 16:11:21",
+      "registered": "2016-02-01 07:40:39",
+      "phone": "(426)-436-3206",
+      "cell": "(515)-043-3906",
+      "id": 2,
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/men/42.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/men/42.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/42.jpg"
+      },
+      "nat": "NL",
+      "editMode": false
+    },
+    {
+      "gender": "female",
+      "name": {
+        "title": "mademoiselle",
+        "first": "julia",
+        "last": "martin"
+      },
+      "location": {
+        "street": "5187 place de l'abbé-franz-stock",
+        "city": "morges 1",
+        "state": "basel-landschaft",
+        "postcode": 8903
+      },
+      "email": "julia.martin@example.com",
+      "login": {
+        "username": "bigmeercat159",
+        "password": "goten",
+        "salt": "pe89Jh2c",
+        "md5": "7f7d9e31a20f79bc70dc2e5ad0a6792d",
+        "sha1": "4755e9f2c0edf275cec2bf7c99c1664cc0d5aa7d",
+        "sha256": "fa166fe7605e7c5499671db73a01c6cf0f04fe646a1bc1550aa0be25da1d4108"
+      },
+      "dob": "1989-01-01 16:29:48",
+      "registered": "2005-11-15 13:51:55",
+      "phone": "(034)-633-0315",
+      "cell": "(761)-783-7283",
+      "id": 3,
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/women/35.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/women/35.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/women/35.jpg"
+      },
+      "nat": "CH"
+    },
+    {
+      "gender": "female",
+      "name": {
+        "title": "ms",
+        "first": "melinda",
+        "last": "flores"
+      },
+      "location": {
+        "street": "9388 woodland st",
+        "city": "cape fear",
+        "state": "utah",
+        "postcode": 97858
+      },
+      "email": "melinda.flores@example.com",
+      "login": {
+        "username": "ticklishladybug615",
+        "password": "giovanni",
+        "salt": "oPZFaiA1",
+        "md5": "56a190aabbd4ab23f46eb0f71b0a6cdb",
+        "sha1": "c1e54f2e2b5b4aab5ed0f0ddedd9d51aedc7e985",
+        "sha256": "83ff09806302b33bbe2441ebd470b0ad8c536c862c6d78c8a852d132211098d5"
+      },
+      "dob": "1950-01-31 09:49:54",
+      "registered": "2007-09-13 12:14:06",
+      "phone": "(445)-885-8987",
+      "cell": "(774)-967-3943",
+      "id": 4,
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/women/58.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/women/58.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/women/58.jpg"
+      },
+      "nat": "US"
+    },
+    {
+      "gender": "female",
+      "name": {
+        "title": "mrs",
+        "first": "بهار",
+        "last": "سهيلي راد"
+      },
+      "location": {
+        "street": "9249 خرمشهر",
+        "city": "گرگان",
+        "state": "کرمان",
+        "postcode": 15168
+      },
+      "email": "بهار.سهيليراد@example.com",
+      "login": {
+        "username": "blackduck732",
+        "password": "mail",
+        "salt": "j5Pvk4jj",
+        "md5": "8455010690857c96c2c9197fad6be082",
+        "sha1": "6629d07b9a628806b0346564c69b67e7f242b7a8",
+        "sha256": "f5dbb467a17fec602f09ad45fe71f3244bc92f57fe0198369a89f98629d12be4"
+      },
+      "dob": "1992-11-21 17:49:17",
+      "registered": "2014-12-16 18:52:25",
+      "phone": "081-67949546",
+      "cell": "0940-067-1722",
+      "id": 5,
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/women/23.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/women/23.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/women/23.jpg"
+      },
+      "nat": "IR"
+    },
+    {
+      "gender": "female",
+      "name": {
+        "title": "ms",
+        "first": "trinidad",
+        "last": "ramos"
+      },
+      "location": {
+        "street": "5337 calle de arturo soria",
+        "city": "zaragoza",
+        "state": "melilla",
+        "postcode": 50407
+      },
+      "email": "trinidad.ramos@example.com",
+      "login": {
+        "username": "heavymeercat347",
+        "password": "deborah",
+        "salt": "c7H9dhhm",
+        "md5": "6fdd0ec33e73a8e3dca7e8882ddf1f11",
+        "sha1": "ba7c46803565917ed96345d382f06396f0a1065a",
+        "sha256": "14b7ab9e9966c967575a71e1b07ba418423ada2c40cd54e752f9a0adc04a328e"
+      },
+      "dob": "1947-05-14 15:06:45",
+      "registered": "2015-07-24 16:30:06",
+      "phone": "980-138-066",
+      "cell": "621-815-285",
+      "id": 6,
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/women/7.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/women/7.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/women/7.jpg"
+      },
+      "nat": "ES"
+    },
+    {
+      "gender": "male",
+      "name": {
+        "title": "mr",
+        "first": "max",
+        "last": "buchholz"
+      },
+      "location": {
+        "street": "5754 königsberger straße",
+        "city": "annaberg",
+        "state": "baden-württemberg",
+        "postcode": 18173
+      },
+      "email": "max.buchholz@example.com",
+      "login": {
+        "username": "greenostrich303",
+        "password": "devin",
+        "salt": "tEnAzJfU",
+        "md5": "325172ae9f3b755dc8fb0ba7bf0b32e5",
+        "sha1": "cbb5e3cba81d1eecfb39c5b101d02106ccd50171",
+        "sha256": "ebced812ecf2235f00483b431798268dad7b2f8dba6c36ef6c76cb51c0977b9a"
+      },
+      "dob": "1966-08-06 05:20:00",
+      "registered": "2016-02-11 03:34:29",
+      "phone": "0647-7358794",
+      "cell": "0177-2148157",
+      "id": 7,
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/men/64.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/men/64.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/64.jpg"
+      },
+      "nat": "DE"
+    },
+    {
+      "id": "18:37:51 GMT+0530 (India Standard Time)",
+      "picture": {
+        "medium": "icons8-customer-100.png"
+      },
+      "name": {
+        "first": "Akhil",
+        "last": "Varganti"
+      },
+      "location": {
+        "street": "Srinagar Colony",
+        "city": "Siddipet",
+        "state": "Telangana"
+      },
+      "cell": "9700054554"
+    },
+    {
+      "id": "18:56:48 GMT+0530 (India Standard Time)",
+      "picture": {
+        "medium": "icons8-customer-100.png"
+      },
+      "name": {
+        "first": "Rama",
+        "last": "Krishna"
+      },
+      "location": {
+        "street": "K K nagar",
+        "city": "Secunderabad",
+        "state": "Telangana"
+      },
+      "cell": "9848022338"
+    }
+  ]
+}

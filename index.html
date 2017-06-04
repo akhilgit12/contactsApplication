@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html ng-app="contactsApp">
+
+<head>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+	 crossorigin="anonymous">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
+	 crossorigin="anonymous">
+
+	<script src="angular.js"></script>
+	<script src="app.js"></script>
+	<script src="appConfigService.js"></script>
+	<script src="appservice.js"></script>
+	<script src="contactCotroller.js"></script>
+	<script src="contactDataService.js"></script>
+	<script src="contactInfo.js"></script>
+	<title>Contacts</title>
+</head>
+
+<body>
+	<h1>Contacts App</h1>
+	<div class="container" ng-controller="ContactCtrl as ctrl">
+	<button class="btn btn-default" ng-click="ctrl.addContact()">Add New contact</button><br><br><br>
+		<div class="row">
+			<div class="col-md-6">
+				<ul class="list-group" style="overflow: auto;max-height: 600px;">
+					<li class="list-group-item" style="cursor: pointer!important;" ng-repeat="contact in ctrl.contacts" ng-click="ctrl.selectContact($index)">
+					<div class="media-left">
+						<a href="#"><img ng-src="{{contact.picture.medium}}"><span style="color: black; margin-left: 10px;">{{contact.name.first + " " + contact.name.last}}</span></a>
+					</div>
+					<div style="float: right;max-width: 60px;margin-top: -45px;">
+						<button class="btn btn-default" ng-hide="contact.editMode" ng-click="ctrl.toggleEditMode($index);">Edit</button>
+						<button class="btn btn-default" ng-show="contact.editMode" ng-click="ctrl.saveUser($index)">Save</button>
+					</div>					
+					<div ng-if="contact.id == ctrl.selectedContact.id" class="media-body">
+						<div>
+							<p><h6>Location</h6></p>
+							<p><span>Street: {{ ctrl.selectedContact.location.street }}</span></p>
+							<p><span>City: {{ ctrl.selectedContact.location.city}}</span></p>
+							<p><span>State: {{ctrl.selectedContact.location.state}}</span></p>
+						</div>
+						<div>
+							<p><span>Phone: {{ctrl.selectedContact.cell}}</span></p>
+						</div>
+					</div>
+					</li>
+				</ul>
+			</div>
+
+			<div class="col-md-6">
+			<div class="alert alert-success" ng-if="ctrl.successMessage">{{ctrl.successMessage}}</div>
+			<div class="alert alert-danger" ng-if="ctrl.errorMessage">{{ctrl.errorMessage}}</div>
+				<div class="media">
+					<div class="media-left">
+						<a href="#">
+			      <img ng-src="{{ctrl.selectedContact.picture.medium}}">
+			    </a>
+					</div>
+					<div class="media-body">
+						<h4 class="media-heading" ng-hide="ctrl.editMode">{{ctrl.selectedContact.name.first + " " + ctrl.selectedContact.name.last}}</h4>
+						
+<!-- 							<button ng-hide="ctrl.editMode" ng-click="ctrl.toggleEditMode()">Edit</button>
+							<button ng-show="ctrl.editMode" ng-click="ctrl.saveUser()">Save</button> -->
+						<div ng-show="ctrl.editMode">
+						<button class="btn btn-default" ng-show="ctrl.addMode" ng-click="ctrl.saveUser()">Save</button>
+						<contact-info info = ctrl.selectedContact></contact-info>
+						<!-- <table class="table">
+							<tr>
+								<td><span>First Name:</span></td>
+								<td><input type="text" ng-model="ctrl.selectedContact.name.first"></td>
+							</tr>
+							<tr>
+								<td><span>Last Name:</span>
+								<td><input type="text" ng-model="ctrl.selectedContact.name.last"></td>
+							</tr>
+							<tr>
+								<td><span>Street:</span></td>
+								<td><input ng-show="ctrl.editMode" type="text" ng-model="ctrl.selectedContact.location.street"></td>
+							</tr>
+							<tr>
+								<td><span>City:</span></td>
+								<td><input ng-show="ctrl.editMode" type="text" ng-model="ctrl.selectedContact.location.city"></td>
+							</tr>
+							<tr>
+								<td><span>State:</span></td>
+								<td><input ng-show="ctrl.editMode" type="text" ng-model="ctrl.selectedContact.location.state"></td>
+							</tr>
+							<tr>
+								<td><span>Phone:</span></td>
+								<td><input ng-show="ctrl.editMode" type="text" ng-model="ctrl.selectedContact.cell"></td>
+							</tr>
+						</table> -->
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>
